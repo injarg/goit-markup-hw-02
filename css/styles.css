@@ -1,20 +1,65 @@
+/* Body */
+
 body {
   font-family: "Roboto", sans-serif;
-  color: black;
+  color: #2e2f42;
+  background-color: #d0d1dd;
 }
 
 /* Logo */
 
-.logo {
+.header-logo,
+.footer-logo {
   width: 71px;
   height: 24px;
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
+}
+/* Header */
+
+.header-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+}
+
+.header-mail,
+.header-tel {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-size: 16px;
+  line-height: 1.5;
   display: flex;
   align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.hero-sec1-list {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.hero-sec1-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
