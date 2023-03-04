@@ -3,19 +3,25 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
-  background-color: #d0d1dd;
+  background-color: gray;
+}
+
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Logo */
 
-.header-logo,
-.footer-logo {
-  width: 71px;
-  height: 24px;
+.logo {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
+  text-decoration: none;
 }
 /* Header */
 
@@ -24,10 +30,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.1em;
+  text-decoration: none;
 }
 
 .header-mail,
 .header-tel {
+  font-weight: 400;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
@@ -49,6 +57,7 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .hero-sec1-list {
@@ -62,4 +71,58 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.sec-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+}
+
+.members {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.job {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+
+.footer-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #e7e9fc;
+}
+
+.nav-buttons {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.app {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+.app-name {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+
+.dep {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  letter-spacing: 0.02em;
 }
