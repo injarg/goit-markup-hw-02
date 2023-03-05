@@ -2,7 +2,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: gray;
 }
 
@@ -20,9 +20,18 @@ a {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
+
+.link {
+  text-decoration: none;
+  color: #4d5ae5;
+}
+
 /* Header */
 
 .header-list {
@@ -60,13 +69,13 @@ a {
   cursor: pointer;
 }
 
-.hero-sec1-list {
+.hero-sec2-list {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.hero-sec1-item {
+.hero-sec2-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -107,6 +116,7 @@ a {
 }
 
 .app {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
@@ -125,4 +135,18 @@ a {
   line-height: 1.5;
   color: #434455;
   letter-spacing: 0.02em;
+}
+
+.nav-all,
+.nav-web,
+.nav-app,
+.nav-design,
+.nav-mark {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
 }
